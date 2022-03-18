@@ -37,7 +37,7 @@ class SignInActivity : AppCompatActivity() {
 
     private fun setupViews() {
         val testUser =
-            User("Cristiano Ronaldo", "ronaldo@gmail.com", "123456", "+1 (783) 0986 8786")
+            User("Cristiano Ronaldo", "ronaldo@gmail.com", "123456", "+84 678 287")
 
         btnSignIn.setOnClickListener {
             if (edtEmail.text.toString().trim() == testUser.email && edtPassword.text.toString()
